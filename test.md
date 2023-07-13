@@ -1,13 +1,11 @@
----
-format: gfm
-engine: knitr
----
 
-```{{r}}
+```` markdown
+```{r}
 #| label: read-nonexistent-file
 
 read_csv("data.csv")
 ```
+````
 
 Versions:
 
